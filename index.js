@@ -10,11 +10,7 @@ function largestSubarraySum(array) {
       sum_array.push(sum_array[i-1]+array[i]);
     }
   }
-  let max_sum = Math.max(sum_array);
-
-  // 2. compare next subarrays to base case
-  for (let i = )
-  console.log(sum_array);
+  return Math.max(sum_array);
 }
 
 largestSubarraySum(array);
