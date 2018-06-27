@@ -10,7 +10,7 @@ function largestSubarraySum(array) {
       sum_array.push(sum_array[i-1]+array[i]);
     }
   }
-  return sum_array;
+  return Math.max(...sum_array);
 }
 
 console.log(largestSubarraySum(array));
