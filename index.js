@@ -8,3 +8,5 @@ function largestSubarraySum(array) {
   }
   console.log(sum_array);
 }
+
+largestSubarraySum(array);
