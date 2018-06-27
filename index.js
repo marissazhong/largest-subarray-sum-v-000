@@ -13,4 +13,4 @@ function largestSubarraySum(array) {
   return Math.max(sum_array);
 }
 
-largestSubarraySum(array);
+console.log(largestSubarraySum(array));
